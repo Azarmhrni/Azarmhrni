@@ -16,18 +16,20 @@
                             - Untuk user yang ingin menanyakan tentang produk pada seller
                             
 ## 2. User Story
+
+
       Sebagai|Saya ingin|Sehingga|Level Prioritas 
-      ---|---|---|--
-      Customer | Mencari casual fashion | Bisa mendapatkan ide fashion setiap harinya | ⭐⭐⭐⭐⭐
-      Customer | Chat seller/toko | Bisa konsultasi tentang masalah produk | ⭐⭐⭐⭐⭐
-      Customer | Mencari fashion untuk liburan | Bisa mendapatkan ide fashion saat liburan | ⭐⭐⭐⭐
-      Seller | Chat customer | Bisa membalas chat customer | ⭐⭐⭐ 
-      Seller | Memposting produk | Bisa menjual produk | ⭐⭐⭐⭐
-      Customer | Menyimpan dulu produk | Bisa menyimpan dulu idenya di dalam keranjang dan mencari yang lebih cocok | ⭐⭐⭐
+      ---|---|---|---
+      Customer|Mencari casual fashion|Bisa mendapatkan ide fashion setiap harinya|⭐⭐⭐⭐⭐
+      Customer|Chat seller|Bisa konsultasi tentang masalah produk|⭐⭐⭐⭐⭐
+      Customer|Mencari fashion untuk liburan|Bisa mendapatkan ide fashion saat liburan|⭐⭐⭐⭐
+      Seller|Chat customer|Bisa membalas chat customer|⭐⭐⭐ 
+      Seller|Memposting produk|Bisa menjual produk|⭐⭐⭐⭐
+      Customer|Menyimpan dulu produk|Bisa menyimpan dulu idenya di dalam keranjang dan mencari yang lebih cocok|⭐⭐⭐
       
 ## 3. Struktur Data 
       Untuk mmebuat bermacam grafik (struktur data) menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html]
-      ---mermaid
+      ```mermaid
       erDiagram
           SELLER ||--o{ PRODUK : MEMPOSTING
           SELLER {
@@ -48,7 +50,7 @@
             float pricePerItem
           }
           SELLER ||--|{ CUSTOMER : MENGUNJUNGI_TOKO
-        ---
+        ```
               
 ## 4. Arsitektur Sistem
 
