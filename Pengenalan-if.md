@@ -10,8 +10,8 @@
 ## 1.3 Branding
       Merk : MFN STORE
       Tagline : The best deals are just one click away!
-      Campaign : 
-      Target User : - All user 13+
+      Campaign : Aplikasi untuk menemukan ide fashion  
+      Target User : -user 13+
                             - Untuk user yang bingung ide untuk fashion 
                             - Untuk user yang ingin menanyakan tentang produk pada seller
                             
@@ -54,12 +54,16 @@
               
 ## 4. Arsitektur Sistem
 
+      Database-
       
 ## 5. Teknologi, Library, dan Framework
-      Teknologi : 
+      Teknologi : - react native
+                  -         
       Library :
       Framework :
 ## 6. Desain User Experience dan User Interface
-      
-      
-## 6. Desain User Experience dan User Interface
+
+      slide 1 : https://ibb.co/kG1094m
+      slide 2 : https://ibb.co/MR9yzxs
+      slide 3 : https://ibb.co/C2HVRt4
+      slide 4 : https://ibb.co/mNdtxKn
