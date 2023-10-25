@@ -54,7 +54,7 @@
               
 ## 4. Arsitektur Sistem
 
-      Database-
+      Database-Amazon Web Server-Java-Figma-Android studio
       
 ## 5. Teknologi, Library, dan Framework
       Teknologi : - react native
@@ -63,7 +63,7 @@
       Framework :
 ## 6. Desain User Experience dan User Interface
 
-      slide 1 : https://ibb.co/kG1094m
-      slide 2 : https://ibb.co/MR9yzxs
-      slide 3 : https://ibb.co/C2HVRt4
-      slide 4 : https://ibb.co/mNdtxKn
+      slide 1 : https://ibb.co/L8dJ1sv
+      slide 2 : 
+      slide 3 : 
+      slide 4 : 
