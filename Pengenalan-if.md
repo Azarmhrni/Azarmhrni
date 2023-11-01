@@ -26,12 +26,14 @@
       Seller|Chat customer|Bisa membalas chat customer|⭐⭐⭐ 
       Seller|Memposting produk|Bisa menjual produk|⭐⭐⭐⭐
       Customer|Menyimpan dulu produk|Bisa menyimpan dulu idenya di dalam keranjang dan mencari yang lebih cocok|⭐⭐⭐
+      Customer|Membuat akun|Bisa membuat profile di akun pribadi|⭐⭐⭐⭐
+      
       
 ## 3. Struktur Data 
       Untuk mmebuat bermacam grafik (struktur data) menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html]
       ```mermaid
       erDiagram
-          SELLER ||--o{ PRODUK : MEMPOSTING
+          SELLER ||--|{ PRODUK : MEMPOSTING
           SELLER {
             String username
             String password
@@ -49,7 +51,7 @@
             int quality
             float pricePerItem
           }
-          SELLER ||--|{ CUSTOMER : MENGUNJUNGI_TOKO
+          CUSTOMER ||--|{ SELLER : MENGUNJUNGI_TOKO
         ```
               
 ## 4. Arsitektur Sistem
